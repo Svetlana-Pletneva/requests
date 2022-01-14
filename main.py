@@ -32,5 +32,5 @@ class YaUploader:
 
 
 if __name__ == '__main__':
-    ya = YaUploader(token="AQAAAAAEljyyAADLW6yPpHXey0ZCmdKKt7-1sW8")
+    ya = YaUploader(token="")
     ya.upload_file_to_disk("test", "test.txt")
